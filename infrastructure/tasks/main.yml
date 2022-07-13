@@ -6,7 +6,7 @@
 
 - name: clone-repo
   git:
-    dest: "{{ deplyment_path }}"
+    dest: "{{ deployment_path }}"
     repo: "{{ git_repository }}"
     version: "{{ git_branch }}"
 
